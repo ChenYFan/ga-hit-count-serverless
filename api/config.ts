@@ -6,12 +6,12 @@
  * ! Don't put your privateKey inside this file directly!
  */
 export default {
-  viewId: '205703100',
+  viewId: '229822278',
   auth: {
-    projectId: 'ga-hit-count',
+    projectId: 'cyfs-api',
     privateKey: process.env.PRIVATE_KEY,
-    clientEmail: 'blog-hit-count@ga-hit-count.iam.gserviceaccount.com',
+    clientEmail: 'blog-ga@cyfs-api.iam.gserviceaccount.com',
   },
-  allFilter: ['/20'],
+  allFilter: ['/'],
   startDate: '2010-01-01',
 }
